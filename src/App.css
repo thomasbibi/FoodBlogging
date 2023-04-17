@@ -1,0 +1,36 @@
+*{
+  margin: 0px;
+  box-sizing: border-box;
+  padding: 0%;
+}
+
+.article-img{
+  margin: 40px 0px;
+  border-radius: 27px;
+  width: 204px;
+  height: 166px;
+}
+
+.arrowBtn{
+  position: relative;
+  right: 10px;
+}
+
+button[disabled]{
+  opacity: 0.45;
+}
+
+@media screen and (min-width : 475px) and (max-width : 1440px){
+    .articles,.footer{
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      gap: 40px;
+    }
+
+    .banner-item-1{
+    display: flex;
+    flex-direction: row-reverse;
+  }
+ 
+}
